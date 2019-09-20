@@ -1,21 +1,556 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo"><a href="index.html">Plastic Machinary Solution</a></div>
+          <div>
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#specification-section" class="nav-link">Specification</a></li>
+                <li><a href="#brands-section" class="nav-link">Brands</a></li>
+                <li><a href="#process-section" class="nav-link">Process</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="ml-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
+                <li class="cta"><a href="#contact-section" class="nav-link"><span class="rounded border border-primary">Contact</span></a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="intro-section" id="home-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mr-auto" data-aos="fade-up">
+            <h1>We do things right.</h1>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+            <p><a href="#" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
+
+          </div>
+          <div class="col-lg-2 ml-auto"  data-aos="fade-up" data-aos-delay="100">
+            <figure class="img-absolute">
+              <section>
+              <!-- <img src="../assets/images/person_1.jpg" alt="Image" class="img-fluid"> -->
+                  <img class="img-fluid top" src="https://placeimg.com/640/480/nature">
+                  <img class="img-fluid top"  src="https://placeimg.com/640/480/arch">
+                </section>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section section-1">     
+    
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-auto mb-5">
+
+            <div class="mb-5">
+              <span class="section-sub-title d-block">About Plastic Machinary Solution</span>
+              <h2 class="section-title">We Value More on Quality and not in Quantity.</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                
+                <div class="counter d-flex align-items-start mb-5" data-aos="fade-up" data-aos-delay="">
+                  <div class="icon-wrap"><span class="flaticon-reload text-success"></span></div>
+                  <div class="counter-text">
+                    <strong>260</strong>
+                    <span>Fast Loading</span>
+                  </div>
+                </div>
+
+                <div class="counter d-flex align-items-start" data-aos="fade-up" data-aos-delay="100">
+                  <div class="icon-wrap"><span class="flaticon-download text-success"></span></div>
+                  <div class="counter-text">
+                    <strong>2,500</strong>
+                    <span>No. of Downloads </span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-6">
+                
+                <div class="counter d-flex align-items-start mb-5" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-wrap"><span class="flaticon-monitor text-success"></span></div>
+                  <div class="counter-text">
+                    <strong>87</strong>
+                    <span>Number of Person</span>
+                  </div>
+                </div>
+
+                <div class="counter d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-wrap"><span class="flaticon-chat text-success"></span></div>
+                  <div class="counter-text">
+                    <strong>920</strong>
+                    <span>Chat Room</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="image-absolute-box" >
+              <div class="box" data-aos="fade-up">
+                <div class="icon-wrap"><span class="flaticon-vector"></span></div>
+                <h3>Creativity is the key</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati commodi aspernatur eum eius inventore facilis.</p>
+              </div>
+              <img src="../assets/images/about_1.jpg" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="site-section " id="brands-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5">
+            <span class="section-sub-title d-block">Genuine Brands</span>
+            <h2 class="section-title">Our Brands</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="owl-carousel nonloop-block-13">
+          <a class="work-thumb" href="../assets/images/about_1.jpg" data-fancybox="gallery">
+            <div class="work-text">
+              <h3>JSW</h3>
+              <span class="category">Website</span>
+            </div>
+            <img src="../assets/images/about_1.jpg" alt="Image" class="img-fluid">
+          </a> 
+          
+          <a class="work-thumb" href="../assets/images/slide_1.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>KAWAGUCHI</h3>
+              <span class="category">Illustration</span>
+            </div>
+            <img src="../assets/images/slide_1.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_2.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>NISSAI</h3>
+              <span class="category">Branding</span>
+            </div>
+            <img src="../assets/images/slide_2.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_3.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>MEIKI</h3>
+              <span class="category">Web Development</span>
+            </div>
+            <img src="../assets/images/slide_3.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_4.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>SUMITOMO</h3>
+              <span class="category">Design</span>
+            </div>
+            <img src="../assets/images/slide_4.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/about_1.jpg" data-fancybox="gallery">
+            <div class="work-text">
+              <h3>NIGATA</h3>
+              <span class="category">Website</span>
+            </div>
+            <img src="../assets/images/about_1.jpg" alt="Image" class="img-fluid">
+          </a> 
+          
+          <a class="work-thumb" href="../assets/images/slide_1.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>TOSHIBA</h3>
+              <span class="category">Illustration</span>
+            </div>
+            <img src="../assets/images/slide_1.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_2.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>TOYAO</h3>
+              <span class="category">Branding</span>
+            </div>
+            <img src="../assets/images/slide_2.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_3.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>HISHIYA</h3>
+              <span class="category">Web Development</span>
+            </div>
+            <img src="../assets/images/slide_3.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_4.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>DEMAG</h3>
+              <span class="category">Design</span>
+            </div>
+            <img src="../assets/images/slide_4.jpg" alt="Image" class="img-fluid">
+          </a>
+          <a class="work-thumb" href="../assets/images/slide_3.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>ENGLE</h3>
+              <span class="category">Web Development</span>
+            </div>
+            <img src="../assets/images/slide_3.jpg" alt="Image" class="img-fluid">
+          </a>
+
+          <a class="work-thumb" href="../assets/images/slide_4.jpg"  data-fancybox="gallery">
+            <div class="work-text">
+              <h3>ARBURG</h3>
+              <span class="category">Design</span>
+            </div>
+            <img src="../assets/images/slide_4.jpg" alt="Image" class="img-fluid">
+          </a>
+      </div>
+
+    </div>
+
+
+    <div class="section-2" id="process-section" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5">
+            <span class="section-sub-title d-block">Our Process</span>
+            <h2 class="section-title">Our Process</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="process p-3">
+              <span class="number">01</span>
+              <div>
+                <span class="icon-phone display-4 text-success mb-4 d-inline-block"></span>
+                <h3>Consulting</h3>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="process p-3">
+              <span class="number">02</span>
+              <div>
+                <span class="icon-handshake-o display-4 text-success mb-4 d-inline-block"></span>
+                <h3>Visit</h3>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="process p-3">
+              <span class="number">03</span>
+              <div>
+                <span class="icon-sentiment_satisfied display-4 text-success mb-4 d-inline-block"></span>
+                <h3>Discussion</h3>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="process p-3">
+              <span class="number">04</span>
+              <div>
+                <span class="icon-done_all display-4 text-success mb-4 d-inline-block"></span>
+                <h3>Deal Done</h3>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="services-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5">
+            <span class="section-sub-title d-block">Services</span>
+            <h2 class="section-title">Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+      </div>
+        
+      <div class="owl-carousel nonloop-block-14">
+        
+        <div class="service">
+          <div>
+            <span class="icon-settings_remote display-4 text-success mb-4 d-inline-block"></span>
+            <h3>PLC</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+
+        <div class="service">
+          <div>
+            <span class="icon-power-off display-4 text-success mb-4 d-inline-block"></span>
+            <h3>Hybrid Sarvo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div>
+            <span class="icon-format_color_fill display-4 text-success mb-4 d-inline-block"></span>
+            <h3>Hydraulic Oil</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div>
+            <span class="icon-cog display-4 text-success mb-4 d-inline-block"></span>
+            <h3>24/7 Installation Support</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div>
+            <span class="icon-local_drink display-4 text-success mb-4 d-inline-block"></span>
+            <h3>Hoppers</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div>
+            <span class="icon-cogs display-4 text-success mb-4 d-inline-block"></span>
+            <h3>Moulds</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+ 
+    <div class="section-2" id="specification-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-12">
+            <!-- <span class="section-sub-title d-block">Excellent Work</span> -->
+            <span>&nbsp;</span>
+            <h2 class="section-title">Our Vision & Mission</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <section class="dropex-section our-process-2 tp-gray-bg">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-12">
+                    <div class="section-head b-align-center wow  fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <h2 class="head-title white-font">Our Vision & Mission</h2>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row row_process_2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-process wow  bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+                    <div class="wrap_process_2 b-align-center">
+                        <span class="process_icon"><i class="fas fa-bullseye"></i></span>
+                        <h3 class="white-font"> Our Principle</h3>
+                        <p class="white-font">Sincere service, Sustainable pursuit of perfection.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-process wow  bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+                    <div class="wrap_process_2 b-align-center">
+                        <span class="process_icon"><i class="fas fa-handshake"></i></span>
+                        <h3 class="white-font"> Our Promise</h3>
+                        <p class="white-font">Customer oriented service 7/24 service hotline*</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-process wow  bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+                    <div class="wrap_process_2 b-align-center">
+                        <span class="process_icon"><i class="fas fa-check-double"></i></span>
+                        <h3 class="white-font"> Our Standard</h3>
+                        <p class="white-font">Visit on time finish as soon as possible Settlement at one time</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-process wow  bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+                    <div class="wrap_process_2 b-align-center">
+                        <span class="process_icon"><i class="fas fa-trophy"></i></span>
+                        <h3 class="white-font"> Our Target</h3>
+                        <p class="white-font">Timely and highly efficient service for customer satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+  
+    <div class="site-section" id="contact-section">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+
+            
+            <h2 class="section-title mb-3">Message Us</h2>
+            <p class="mb-5">Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+          
+            <form method="post" data-aos="fade">
+              <div class="form-group row">
+                <div class="col-md-6 mb-3 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Company Name">
+                </div>
+              </div>
+
+
+              <div class="form-group row">
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+             
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Contact">
+                </div>
+              </div>
+
+              
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <select name="product" class="form-control" >
+                    <option>Select Products</option>
+                    <option>PLC</option>
+                    <option>Mold</option>
+                    <option>Machine</option>
+                    <option>Support</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" id="" cols="30" rows="6" placeholder="Address"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" id="" cols="30" rows="6" placeholder="Write your message here."></textarea>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-6">
+                  
+                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block" value="Send Message">
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+     
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Plastic Machinary Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+            <h3>Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Process</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Subscribe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto? Numquam, natus?</p>
+            <form action="#">
+              <div class="d-flex mb-5">
+                <input type="text" class="form-control rounded-0" placeholder="Email">
+                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+      </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  
+    
+  </div> <!-- .site-wrap -->
 
 <router-outlet></router-outlet>
